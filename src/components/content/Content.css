@@ -1,0 +1,174 @@
+.glyphicon-star {
+  font-size: 40px;
+  color: #e67e22;
+  &.half {
+    position: relative;
+    &:before {
+      position: relative;
+      z-index: 9;
+      width: 47%;
+      display: block;
+      overflow: hidden;
+    }
+    &:after {
+      content: "\e006";
+      position: absolute;
+      z-index: 8;
+      color: #bdc3c7;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+.checked {
+  color: orange;
+}
+
+.image1 {
+  position: absolute;
+  left: 6.11%;
+  right: 77.58%;
+  top: 52.74%;
+  bottom: 30.81%;
+
+  border: 1px solid #d8d8d8;
+}
+.image11 {
+  position: absolute;
+  left: 8.34%;
+  right: 79.81%;
+  top: 54.41%;
+  bottom: 36.79%;
+
+  /* background: url(2.png); */
+}
+.image2 {
+  position: absolute;
+  left: 23.96%;
+  right: 59.73%;
+  top: 52.74%;
+  bottom: 30.81%;
+
+  border: 1px solid #d8d8d8;
+}
+.image22 {
+  position: absolute;
+  left: 26.19%;
+  right: 61.96%;
+  top: 54.2%;
+  bottom: 37.01%;
+}
+.image3 {
+  position: absolute;
+  left: 41.81%;
+  right: 41.88%;
+  top: 52.74%;
+  bottom: 30.81%;
+
+  border: 1px solid #d8d8d8;
+}
+.image4 {
+  position: absolute;
+  left: 59.66%;
+  right: 24.03%;
+  top: 52.74%;
+  bottom: 30.81%;
+
+  border: 1px solid #d8d8d8;
+}
+.image5 {
+  position: absolute;
+  left: 77.51%;
+  right: 6.18%;
+  top: 52.74%;
+  bottom: 30.81%;
+
+  border: 1px solid #d8d8d8;
+}
+/* main image description below */
+.image_content {
+  width: 570px;
+  height: 147px;
+  margin-top: 728px;
+  margin-left: 62px;
+}
+/* main image style */
+.img1 {
+  position: absolute;
+  margin-left: 8.78%;
+  margin-right: 71.76%;
+  margin-top: 19.27%;
+  margin-bottom: 66.29%;
+}
+.bullet {
+  float: right;
+}
+
+/* seller area */
+.seller {
+  padding-top: 23px;
+}
+.vector {
+  position: absolute;
+  margin-left: 53.18%;
+  margin-right: 9%;
+  margin-top: 15.58%;
+  margin-bottom: 67.1%;
+
+  background: #ffffff;
+}
+.vector2 {
+  border: 1px solid #aaaaaa;
+}
+
+/*  */
+.button {
+  background-color: #47afff; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+}
+
+.button2 {
+  background-color: #ffffff; /* Green */
+  border: 1px solid #aaaaaa;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+}
+.button1 {
+  font-size: 10px;
+}
+.addcart {
+  position: absolute;
+  margin-left: 69.5%;
+  /* margin-right: 20.56%; */
+  margin-top: -3%;
+  /* margin-bottom: 63.63%; */
+}
+
+/* imagesss */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

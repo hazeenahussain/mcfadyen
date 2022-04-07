@@ -1,0 +1,25 @@
+.logo{
+position: absolute;
+left: 4.54%;
+right: 81.93%;
+top: 1.14%;
+bottom: 96.63%;
+}
+.search1{
+    position: absolute;
+    left: 74.84%;
+    right: 21.21%;
+    top: 1.19%;
+    bottom: 96.63%;    
+    background: #707070;
+}
+.searchbar{
+    width: 776px;
+    height: 40px;
+}
+.navbar_background{
+    background-color: #707070;
+}
+.items{
+    padding-right:200px;
+}
